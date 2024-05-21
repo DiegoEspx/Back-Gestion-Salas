@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-i8qzq1e%kg_d&11!t79%(uq)3*l#comlhm-jcqg97#z-xc%s9r
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'back-gestion-sala.azurewebsites.net']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'backendgestionsalas.azurewebsites.net']
 
 
 # Application definition
@@ -134,7 +134,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # CORS settings
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",  # Durante desarrollo
-    "https://frontendgestionsalas.azurewebsites.net",# En producción
 ] 
 
 CORS_ALLOW_HEADERS = [
